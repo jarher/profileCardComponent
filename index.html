@@ -7,23 +7,41 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
   <title>Frontend Mentor | Profile card component</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <!-- Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos -->
+  <main>
+    <section class="card">
+      <header>
+        <figure>
+          <img src="./images/image-victor.jpg" alt="avatar image">
+        </figure>
+      </header>
+      <div class="card-content">
+        <hgroup>
+          <h1 class="card-title">Victor Crest <span class="card-title-number">26</span></h1>
+          <h2 class="card-subtitle">London</h2>
+        </hgroup>
+        <hr />
+        <div class="card-stats">
+          <div class="card-stat-item">
+            <span class="card-stat-number">80K</span>
+            <span class="card-stat-label">Followers</span>
+          </div>
+          <div class="card-stat-item">
+            <span class="card-stat-number">803K</span>
+            <span class="card-stat-label">Likes</span>
+          </div>
+          <div class="card-stat-item">
+            <span class="card-stat-number">1.4K</span>
+            <span class="card-stat-label">Photos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
 </body>
 

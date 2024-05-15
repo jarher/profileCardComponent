@@ -36,6 +36,7 @@ main {
   border-radius: 1rem;
   overflow: hidden;
   margin: auto;
+  box-shadow: 0 48px 70px rgba(0, 0, 0, 0.3);
 }
 header {
   background: url("./images/bg-pattern-card.svg") no-repeat center / cover;

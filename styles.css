@@ -123,8 +123,15 @@ hr {
 }
 @media (min-width: 1024px) {
   body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-size: clamp(36rem, 100%, 46rem);
     background-position: left -320px top -440px, right -320px bottom -520px;
+  }
+  main {
+    margin: 0 auto;
   }
 }
 @media (min-width: 1440px) {
